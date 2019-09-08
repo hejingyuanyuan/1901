@@ -1,0 +1,34 @@
+开启数据库：mongod --dbpath=c:/data/db  --port 27017
+
+
+链r接数据库： mongo
+
+swiper
+
+element
+
+bootstart
+
+
+show dbs；查看所有集合；
+show collctions
+use 库名；进去库名
+
+> db.createCollection("runoob") 创建集合
+
+>db.col.insert()      添加
+
+db.collection.drop() 删集合
+
+> db.col.find()  查看集合
+>db.col.remove({'title':'MongoDB 教程'})删除
+
+> use runoob db.collection.drop()  先进库然后删除库
+                            
+
+ 
+                                   原有的                        新的
+>db.col.update({'title':'MongoDB 教程'},{$set:{'title':'MongoDB'}})修改
+
+
+
